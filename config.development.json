@@ -1,0 +1,19 @@
+{
+  "botToken": "",
+  "cf": {
+    "key": "",
+    "secret": ""
+  },
+  "nlognToken": "",
+  "postgres": {
+    "host": "postgres",
+    "user": "postgres",
+    "db": "tg_bot_dev",
+    "password": "root",
+    "port": 5432
+  },
+  "google": {
+    "credentials": {},
+    "scopes": ["https://www.googleapis.com/auth/spreadsheets"]
+  }
+}

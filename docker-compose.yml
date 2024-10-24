@@ -1,0 +1,49 @@
+version: '3.7'
+
+services:
+  ts-node-docker:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: base
+    volumes:
+      - ./src:/app/src
+      - ./nodemon.json:/app/nodemon.json
+    container_name: bot
+    command: npm run start:dev
+    depends_on:
+      - postgres
+    networks:
+      - app
+  postgres:
+    container_name: bot-db
+    image: postgres:12
+    env_file: .env
+    environment:
+      PG_DATA: /var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+    volumes:
+      - botdb-data:/var/lib/postgresql/data
+    networks:
+      - app
+  pgadmin:
+    container_name: pgadmin
+    image: dpage/pgadmin4
+    env_file: .env
+    environment:
+      PGADMIN_CONFIG_SERVER_MODE: "False"
+    ports:
+      - "5050:80"
+    volumes:
+      - pgadmin-data:/var/lib/pgadmin
+    networks:
+      - app
+
+volumes:
+  botdb-data:
+  pgadmin-data:
+
+networks:
+  app:
+    driver: bridge

@@ -1,0 +1,164 @@
+[
+  {
+    "model": "Group",
+    "data": {
+      "name": "Beginners (утро)",
+      "isSimple": true,
+      "problemsToPass": "[]",
+      "problemsCountToPass": 0,
+      "mosGroupCode": 1750705,
+      "nlognId": 414,
+      "ratingSpreadsheetsId": "1I4SvZgyXpC92eO_ptfZMQ-cVhz5DGG1nP6WX9MAH8wo",
+      "monthSheetId": 1818748576,
+      "cfUrl": "https://nlognqual2024.contest.codeforces.com",
+      "cfContestId": 549142,
+      "indexInList": 0,
+      "teachersInfo": "Иван Иванович Иванов - старший преподаватель, @uspi-u",
+      "lectureNotesInfo": "https://www.youtube.com/playlist?list=PLECoxv2DJH3HnCcOOA1PI5RgDY6f4InrY",
+      "chatsInfo": "https://t.me/+chSYSaXDymRiYTMy",
+      "info": "Информация о группе Beginners (утро)"
+    }
+  },
+  {
+    "model": "Group",
+    "data": {
+      "name": "Beginners (вечер)",
+      "isSimple": true,
+      "problemsToPass": "[]",
+      "problemsCountToPass": 0,
+      "mosGroupCode": 1750540,
+      "nlognId": 418,
+      "ratingSpreadsheetsId": "1I4SvZgyXpC92eO_ptfZMQ-cVhz5DGG1nP6WX9MAH8wo",
+      "monthSheetId": 1818748576,
+      "cfUrl": "https://nlognqual2024.contest.codeforces.com",
+      "cfContestId": 549142,
+      "indexInList": 1,
+      "teachersInfo": "Иван Иванович Иванов - старший преподаватель, @uspi-u",
+      "lectureNotesInfo": "https://www.youtube.com/playlist?list=PLECoxv2DJH3HnCcOOA1PI5RgDY6f4InrY",
+      "chatsInfo": "https://t.me/+chSYSaXDymRiYTMy",
+      "info": "Информация о группе Beginners (вечер)"
+    }
+  },
+  {
+    "model": "Group",
+    "data": {
+      "name": "Advanced B",
+      "isSimple": false,
+      "problemsToPass": "[\"A\", \"B\", \"C\", \"D\"]",
+      "problemsCountToPass": 1,
+      "nlognId": 416,
+      "ratingSpreadsheetsId": "1I4SvZgyXpC92eO_ptfZMQ-cVhz5DGG1nP6WX9MAH8wo",
+      "monthSheetId": 1818748576,
+      "cfUrl": "https://nlognqual2024.contest.codeforces.com",
+      "cfContestId": 549142,
+      "indexInList": 2,
+      "teachersInfo": "Иван Иванович Иванов - старший преподаватель, @uspi-u",
+      "lectureNotesInfo": "https://www.youtube.com/playlist?list=PLECoxv2DJH3HnCcOOA1PI5RgDY6f4InrY",
+      "chatsInfo": "https://t.me/+chSYSaXDymRiYTMy",
+      "info": "Информация о группе Advanced B"
+    }
+  },
+  {
+    "model": "Group",
+    "data": {
+      "name": "Advanced A",
+      "isSimple": false,
+      "problemsToPass": "[\"E\", \"F\", \"G\", \"H\"]",
+      "problemsCountToPass": 2,
+      "nlognId": 415,
+      "ratingSpreadsheetsId": "1I4SvZgyXpC92eO_ptfZMQ-cVhz5DGG1nP6WX9MAH8wo",
+      "monthSheetId": 1818748576,
+      "cfUrl": "https://nlognqual2024.contest.codeforces.com",
+      "cfContestId": 549142,
+      "indexInList": 3,
+      "teachersInfo": "<b>Иван Иванович Иванов</b> - старший преподаватель, @uspi-u\n<b>Иван Иванович Иванов</b> - младший преподаватель, @uspi-u",
+      "lectureNotesInfo": "https://www.youtube.com/playlist?list=PLECoxv2DJH3HnCcOOA1PI5RgDY6f4InrY",
+      "chatsInfo": "https://t.me/+chSYSaXDymRiYTMy",
+      "info": "Информация о группе Advanced A"
+    }
+  },
+
+
+
+  {
+    "model": "CfAccount",
+    "data": {
+      "handle": "nlogn-user-1",
+      "password": "y9x46438",
+      "isActive": true
+    }
+  },
+  {
+    "model": "MosContract",
+    "data": {
+      "mosId": "111111",
+      "studentName": "Test Test Test",
+      "status": 0
+    }
+  },
+  {
+    "model": "Course",
+    "data": {
+      "name": "Алгоритмы и структуры данных",
+      "withRatings": true,
+      "isDefault": true
+    }
+  },
+  {
+    "model": "Course",
+    "data": {
+      "name": "Олимпиадное программирование",
+      "withRatings": false,
+      "isDefault": false,
+      "teachersInfo": "Иван Иванович Иванов - старший преподаватель, @uspi-u",
+      "lectureNotesInfo": "https://www.youtube.com/playlist?list=PLECoxv2DJH3HnCcOOA1PI5RgDY6f4InrY",
+      "chatsInfo": "https://t.me/+chSYSaXDymRiYTMy",
+      "info": "Информация о курсе олимпиадное программирование"
+    }
+  },
+  {
+    "model": "Course",
+    "data": {
+      "name": "Математика для программистов",
+      "withRatings": false,
+      "isDefault": false,
+      "teachersInfo": "Иван Иванович Иванов - старший преподаватель, @uspi-u",
+      "lectureNotesInfo": "https://www.youtube.com/playlist?list=PLECoxv2DJH3HnCcOOA1PI5RgDY6f4InrY",
+      "chatsInfo": "https://t.me/+chSYSaXDymRiYTMy",
+      "info": "Информация о курсе математика для программистов"
+    }
+  },
+
+  {
+    "model": "MosCode",
+    "data": {
+      "courseId": 1,
+      "groupId": 1,
+      "code": 11111
+    }
+  },
+  {
+    "model": "MosCode",
+    "data": {
+      "courseId": 1,
+      "groupId": 2,
+      "code": 22222
+    }
+  },
+  {
+    "model": "MosCode",
+    "data": {
+      "courseId": 1,
+      "groupId": 3,
+      "code": 33333
+    }
+  },
+  {
+    "model": "MosCode",
+    "data": {
+      "courseId": 1,
+      "groupId": 4,
+      "code": 44444
+    }
+  }
+]
